@@ -1,0 +1,39 @@
+
+### FILE SYSTEM
+-o ~/Videos/%(title)s.%(ext)s
+--restrict-filenames
+--no-windows-filenames
+--no-write-comments
+
+### INTERNET SHORTCUT
+#--write-link
+
+### VERBOSITY
+#--newline
+#--print-traffic
+
+### VIDEO FORMAT
+-f "bv*+ba/b"
+-S hdr
+#--prefer-free-formats
+--check-formats
+
+### SUBTITLES
+#--write-auto-subs
+
+### POST-PROCESSING
+--audio-quality 0
+--embed-subs
+--embed-metadata
+--embed-chapters
+
+### SPONSORBLOCK
+--sponsorblock-mark all
+--sponsorblock-remove default
+
+### PRESET
+-t mkv
+
+### EXTRACTOR ARGUMENTS
+--extractor-args youtube:player_client=all
+#--extractor-args youtube:po_token=

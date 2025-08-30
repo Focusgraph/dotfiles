@@ -1,0 +1,225 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+	"logo": {
+	    "type": "small",        // Logo type: auto, builtin, small, file, etc.
+	    //"source": "$HOME/.config/fastfetch/ascii.txt",      // Built-in logo name or file path
+	    // "width": 65,           // Width in characters (for image logos)
+	    // "height": 35,          // Height in characters (for image logos)
+	    "padding": {
+	        "top": 1,          // Top padding
+	        "left": 2,         // Left padding
+	        "right": 2         // Right padding
+	    },
+	    "color": {             // Override logo colors
+	        "1": "#F19266",
+	        "2": "white"
+		}
+	},
+	"display": {
+	    "separator": "",     // Separator between keys and values
+	    // "color": {
+	    //     "keys": "blue",    // Key color
+	    //     "title": "red"     // Title color
+	    // },
+		// "color": {
+		// 	"separator": "1"
+		// },
+		"constants": [
+            "──────────────────────────────────────────────", // {$1} - horizontal line for borders
+            "\u001b[47D",                                     // {$2} - move cursor left 47 columns
+            "\u001b[47C",                                     // {$3} - move cursor right 47 columns
+            "\u001b[46C"                                      // {$4} - move cursor right 46 columns
+       	],
+	    "brightColor": false,
+	    "key": {
+	        // "width": 15,       // Aligns keys to this width
+	  //       "type": "both",   // string, icon, both, or none
+			// "size": 7
+	    },
+	  //   "bar": {
+	  //       "width": 10,       // Width of percentage bars
+	  //       "charElapsed": "■", // Character for elapsed portion
+	  //       "charTotal": "-"   // Character for total portion
+	  //   },
+	    "percent": {
+	        "type": 3,         // 1=number, 2=bar, 3=both, 9=colored number
+	        "color": {
+	            "#F19266": "green",
+	            "#F19266": "light_yellow",
+	            "red": "light_red"
+	        }
+	    }
+	},
+  "modules": [
+  	{
+        "type": "custom",
+        "key": "{##F19266}┌───────────────{$1}┐\u001b[41D",
+        //"format": "\u001b[1m{#keys} {1} - {2} "
+    },
+    {
+    	"type":	"os",
+    	"key": "{##F19266}│ {icon}  \u001b[s{sysname}\u001b[u\u001b[10C{$3}│{$2}"
+    },
+	{
+        "type": "kernel",
+        "key": "{##F19266}│ {icon}  \u001b[sKernel\u001b[u\u001b[10C{$3}│{$2}"
+    },
+    // {
+    //     "type": "datetime",
+    //     "key": "│  {icon}  #Fetched   │{$3}│{$2}",
+    //     "format": "{year}/{month-pretty}/{day-pretty} {hour-pretty}:{minute-pretty}:{second-pretty} {timezone-name}"
+    // },
+    // {
+    //     "type": "locale",
+    //     "key": "│  {icon}  Locale    │{$3}│{$2}"
+    // },
+    {
+        "type": "custom",
+        "key": "{##F19266}│───────────────{$1}│{#keys}\u001b[37D",
+        "format": "{##F19266} Hardware "
+    },
+    // {
+    //     "type": "chassis",
+    //     // Similar structure but with #F19266 color formatting:
+    //     // │{##F19266}│             - Left border with F19266 color
+    //     //  {icon}               - Chassis icon
+    //     //  Chassis             - #Fixed label text
+    //     // │{$4}│{#keys}│{$2}    - Positioning and borders for value area
+    //     "key": "│{##F19266}│ {icon}  Chassis   │{$4}│{#keys}│{$2}"
+    // },
+ 	{
+        "type": "cpu",
+        "key": "{##F19266}│ {icon}  CPU       {$3}│{#keys}{$2}",
+        "showPeCoreCount": false,
+        "format": "{name}"
+        // "keyColor": "33"
+     },
+    {
+        "type": "gpu",
+        "key": "{##F19266}│ {icon}  GPU       {$3}│{#keys}{$2}",
+        "format": "{name}"
+    },
+    {
+        "type": "memory",
+        "key": "{##F19266}│ {icon}  RAM       {$3}│{#keys}{$2}",
+        "format": "{percentage-bar} {total}"
+    },
+    {
+        "type": "swap",
+        "key": "{##F19266}│ {icon}  SWAP      {$3}│{#keys}{$2}",
+        "format": "{percentage-bar} {total}"
+    },
+    {
+    	"type": "disk",
+    	"key": "{##F19266}│ {icon}  Disk      {$3}│{#keys}{$2}",
+    	"format": "{size-percentage-bar} {size-total} - {filesystem}"
+    },
+    {
+        "type": "battery",
+        "key": "{##F19266}│ {icon}  Battery   {$3}│{#keys}{$2}"
+    },
+//    {
+//        "type": "custom",
+//        "key": "{##F19266}└───────────────{$1}┘{#keys}",
+//        "format": ""
+//    },
+    {
+        "type": "custom",
+        "key": "{##F19266}│───────────────{$1}│{#keys}\u001b[37D",
+        "format": "{##F19266} Desktop "
+    },
+    {
+        "type": "de",
+        "key": "{#white}│ {icon}  Desktop   │{$3}{#keys}{$2}"
+    },
+    {
+        "type": "wm",
+        "key": "{##F19266}│ {icon}  WM        {$3}│{#keys}{$2}",
+        "format": "{pretty-name} {version} < {protocol-name}"
+    },
+    {
+		"type": "display",
+    	"key": "{##F19266}│ {icon}  Display   {$3}│{#keys}{$2}",
+		//"compactType": "original-with-refresh-rate",
+		"format": "{width}x{height}/{refresh-rate}"
+	},
+    {
+        "type": "gpu",
+        "key": "{##F19266}│ {icon}  Driver    {$3}│{#keys}{$2}",
+        "format": "{driver}"
+    },
+//    {
+//        "type": "custom",
+//        "key": "{##F19266}└───────────────{$1}┘{#keys}",
+//        "format": ""
+//    },
+    {
+        "type": "custom",
+        "key": "{##F19266}│───────────────{$1}│{#keys}\u001b[37D",
+        "format": "{##F19266} Terminal "
+    },
+    {
+        "type": "shell",
+        "key": "{##F19266}│ {icon}  Shell     {$3}│{#keys}{$2}"
+    },
+    {
+        "type": "terminal",
+        "key": "{##F19266}│ {icon}  Terminal  {$3}│{#keys}{$2}"
+    },
+    {
+        "type": "terminalfont",
+        "key": "{##F19266}│ {icon}  Term Font {$3}│{#keys}{$2}"
+    },
+    // {
+    //     "type": "terminaltheme",
+    //     "key": "│{##F19266}│ {icon}  Colors    │{$3}│{#keys}│{$2}"
+    // },
+    {
+        "type": "packages",
+        "key": "{##F19266}│ {icon}  Packages  {$3}│{#keys}{$2}"
+    },
+//    {
+//        "type": "custom",
+//        "key": "{##F19266}└───────────────{$1}┘{#keys}",
+//        "format": ""
+//    },
+    {
+        "type": "custom",
+        "key": "{##F19266}│───────────────{$1}│{#keys}\u001b[36D",
+        "format": "{##F19266} Uptime "
+    },
+    {
+        "type": "uptime",
+        "key": "{##F19266}│ {icon}  Uptime    {$3}│{#keys}{$2}"
+    },
+    // {
+    //     "type": "users",
+    //     "myselfOnly": true,                               // Only show current user
+    //     "keyIcon": "",
+    //     "key": "│{##F19266}│ {icon}  Login     │{$4}│{#keys}│{$2}"
+    // },
+    {
+        "type": "disk",
+        "keyIcon": "",
+        "key": "{##F19266}│ {icon}  OS Age    {$3}│{#keys}{$2}",
+        "folders": "/",                                   // Check root filesystem
+        "format": "{create-time:10} [{days} days]"        // Show creation time and age in days
+    },
+    {
+        "type": "custom",
+        "key": "{##F19266}└───────────────{$1}┘{#keys}",
+        "format": ""
+    },
+    {
+//        "type": "custom",
+//        "key": "└─────────────────{$1}┘",                // Bottom border of the entire layout
+//        "format": ""
+    },
+ //    "break",
+	// {
+ //        "type": "colors",
+ //        "paddingRight": 4,
+ //        "symbol": "circle"
+ //    }
+  ]
+}
