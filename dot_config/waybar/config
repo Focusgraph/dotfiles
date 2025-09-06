@@ -94,8 +94,8 @@
 		    "paused": "⏸"
 	    },
         "interval": 1,
-        "tooltip": false
-	    // "ignored-players": ["firefox"]
+        "tooltip": false,
+        "ignored-players": ["firefox"]
     },
     "idle_inhibitor": {
         "format": "{icon}",
