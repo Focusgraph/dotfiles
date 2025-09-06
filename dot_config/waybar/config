@@ -138,7 +138,7 @@
     },
     "cpu": {
         "interval": 2,
-        "format": "CPU {usage}% {avg_frequency}GHz {icon0}{icon1}{icon2}{icon3}{icon4}{icon5}{icon6}{icon7}{icon8}{icon9}{icon10}{icon12}{icon13}{icon14}{icon15}",
+        "format": "CPU {usage}% {avg_frequency}GHz",
         "format-icons": [
           "<span color='#69ff94'>▁</span>", // green
           "<span color='#2aa9ff'>▂</span>", // blue
