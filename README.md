@@ -1,3 +1,1 @@
-genty branch > Gentoo system
-
-barchy branch > Arch system
+branch for arch system
