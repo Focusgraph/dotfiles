@@ -9,7 +9,7 @@
     "modules-left": [
         "hyprland/workspaces",
 //        "idle_inhibitor",
-        "pulseaudio",
+        "wireplumber",
         "mpd",
         "mpris"
 //        "cava"
@@ -206,7 +206,7 @@
         "format": "▲{bandwidthUpBytes} ▼{bandwidthDownBytes}",
         "interval": 2
     },
-    "pulseaudio": {
+    "wireplumber": {
        "tooltip": false,
        	"scroll-step": 5,
        	"format": "{icon}   {volume}%",

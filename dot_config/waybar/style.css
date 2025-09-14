@@ -21,7 +21,7 @@
 }
 
 #waybar {
-  font-family: '0xProto Nerd Font Medium';
+  font-family: '0xProto Nerd Font Mono Regular';
 	font-size: 20px;
 	font-weight: 500;
   color: @base04;
@@ -65,7 +65,7 @@
   border-left: none;
 }
 
-#mode, #battery, #cpu, #memory, #network, #pulseaudio, #idle_inhibitor, #backlight, #custom-storage, #custom-updates, #custom-weather, #custom-mail, #clock, #temperature, #language{
+#mode, #battery, #cpu, #memory, #network, #wireplumber, #idle_inhibitor, #backlight, #custom-storage, #custom-updates, #custom-weather, #custom-mail, #clock, #temperature, #language{
   margin: 4px 2px;
   padding: 0 6px;
   background-color: @base02;
@@ -73,7 +73,7 @@
   min-width: 20px;
 }
 
-#pulseaudio.muted {
+#wireplumber.muted {
 	color: @base0C;
 }
 
@@ -84,7 +84,7 @@
 }
 
 #window {
-	font-size: 0.9em;
-	font-weight: 400;
-	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: '0xProto Nerd Font Mono Regular';
 }

@@ -1,1 +1,1 @@
-branch for arch system
+branch for gentoo system
