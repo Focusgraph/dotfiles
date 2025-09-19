@@ -1,0 +1,29 @@
+# /etc/skel/.bashrc
+git_branch() {
+  branch=$(git branch 2>/dev/null | grep '^*' | colrm 1 2)
+  if [ ! -z "$branch" ]; then
+    if [ -n "$(git status --porcelain)" ]; then
+      color="31"  # Red for changes
+    elif [ "$(git stash list)" ]; then
+      color="33"  # Yellow for stashed changes
+    else
+      color="32"  # Green for a clean state
+    fi
+    echo -e "\\e[0;${color}m${branch}\\e[0m"  
+  fi
+}
+
+PS1="\t \u <\w> <\$(git_branch)> "
+
+# Test for an interactive shell.  There is no need to set anything
+# past this point for scp and rcp, and it's important to refrain from
+# outputting anything in those cases.
+if [[ $- != *i* ]] ; then
+	# Shell is non-interactive.  Be done now!
+	return
+fi
+
+# Put your fun stuff here.
+fastfetch
+
+export ENABLE_HDR_WSI=1
