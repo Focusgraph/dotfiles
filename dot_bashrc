@@ -27,3 +27,5 @@ fi
 fastfetch
 
 export ENABLE_HDR_WSI=1
+
+complete -F _root_command doas
