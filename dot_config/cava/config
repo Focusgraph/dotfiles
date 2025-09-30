@@ -1,24 +1,20 @@
 
 [general]
-# Accepts only non-negative values.
+
 framerate = 170
 
-# 'autosens' will attempt to decrease sensitivity if the bars peak. 1 = on, 0 = off
 autosens = 1
 
-# The number of bars (0-512). 0 sets it to auto (fill up console).
-# Bars' width and space between bars in number of characters.
-bars = 512
+bars = 0 # 0 = auto
 bar_width = 1
 bar_spacing = 1
 
-# Seconds with no input before cava goes to sleep mode. Cava will not perform FFT or drawing and
-# only check for input once per second. Cava will wake up once input is detected. 0 = disable.
 sleep_timer = 5
 
 [input]
 
 method = pipewire
+
 source = auto
 
 [output]
@@ -37,9 +33,17 @@ waveform = 0
 
 gradient = 1
 gradient_color_1 = '#b8b8b8'
-gradient_color_2 = '#F19266'
+gradient_color_2 = '#e95916'
+
+horizontal_gradient = 1
+horizontal_gradient_color_1 = '#0bcace'
+horizontal_gradient_color_2 = '#b8b8b8'
+horizontal_gradient_color_3 = '#f19266'
+horizontal_gradient_color_4 = '#b8b8b8'
+horizontal_gradient_color_5 = '#0bcace'
+
+blend_direction = 'up'
 
 [smoothing]
-# Noise reduction, int 0 - 100. default 77
-# 100 will be very slow and smooth, 0 will be fast but noisy.
-noise_reduction = 75
+
+noise_reduction = 75 # 0-100
