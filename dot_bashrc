@@ -29,4 +29,7 @@ fastfetch
 
 export ENABLE_HDR_WSI=1
 
+export PATH="/home/genty/Sync/scripts:$PATH"
+export PATH="/home/genty/Sync/scripts/backup:$PATH"
+
 complete -F _root_command doas
