@@ -15,21 +15,22 @@ git_branch() {
 
 PS1="\t \u <\w> <\$(git_branch)> "
 
-export EDITOR=/usr/bin/nvim
-# Test for an interactive shell.  There is no need to set anything
-# past this point for scp and rcp, and it's important to refrain from
-# outputting anything in those cases.
-if [[ $- != *i* ]] ; then
-	# Shell is non-interactive.  Be done now!
-	return
-fi
-
-# Put your fun stuff here.
 fastfetch
 
 export ENABLE_HDR_WSI=1
 
+# My scripts paths
 export PATH="/home/genty/Sync/scripts:$PATH"
 export PATH="/home/genty/Sync/scripts/backup:$PATH"
 
+# Recommended HOME paths
+export XDG_DATA_HOME="$HOME/.local/share:$XDG_DATA_HOME"
+export XDG_CONFIG_HOME="$HOME/.config:$XDG_CONFIG_HOME"
+export XDG_STATE_HOME="$HOME/.local/state:$XDG_STATE_HOME"
+export XDG_CACHE_HOME="$HOME/.cache:$XDG_CACHE_HOME"
+
+#export HISTFILE="${XDG_STATE_HOME}"/bash/history
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
+
+# doas autocompletion
 complete -F _root_command doas
