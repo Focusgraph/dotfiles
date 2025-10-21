@@ -24,13 +24,14 @@ export PATH="/home/genty/Sync/scripts:$PATH"
 export PATH="/home/genty/Sync/scripts/backup:$PATH"
 
 # Recommended HOME paths
-export XDG_DATA_HOME="$HOME/.local/share:$XDG_DATA_HOME"
-export XDG_CONFIG_HOME="$HOME/.config:$XDG_CONFIG_HOME"
-export XDG_STATE_HOME="$HOME/.local/state:$XDG_STATE_HOME"
-export XDG_CACHE_HOME="$HOME/.cache:$XDG_CACHE_HOME"
+#export HOME="$HOME"/home/genty
+#export XDG_DATA_HOME="$HOME/.local/share:$XDG_DATA_HOME"
+#export XDG_CONFIG_HOME="$XDG_CONFIG_HOME"$HOME/.config
+#export XDG_STATE_HOME="$HOME/.local/state:$XDG_STATE_HOME"
+#export XDG_CACHE_HOME="$HOME/.cache:$XDG_CACHE_HOME"
 
 #export HISTFILE="${XDG_STATE_HOME}"/bash/history
-export CARGO_HOME="$XDG_DATA_HOME"/cargo
+#export CARGO_HOME="$XDG_DATA_HOME"/cargo
 
 # doas autocompletion
 complete -F _root_command doas
