@@ -18,3 +18,5 @@ Send
 .config/gtk-2.0/*
 .config/pulse/*
 .config/rc/*
+.config/QtProject.conf
+.config/VirtualBox
