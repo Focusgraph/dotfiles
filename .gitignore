@@ -3,6 +3,7 @@
 
 .cargo
 .local
+.vscode-oss/
 Archive
 Sync
 Send
@@ -20,3 +21,4 @@ Send
 .config/rc/*
 .config/QtProject.conf
 .config/VirtualBox
+.config/VSCodium/
