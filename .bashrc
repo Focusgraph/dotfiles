@@ -15,8 +15,6 @@ git_branch() {
 
 PS1="\t \u <\w> <\$(git_branch)> "
 
-fastfetch
-
 export ENABLE_HDR_WSI=1
 
 # My scripts paths
