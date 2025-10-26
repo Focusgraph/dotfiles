@@ -18,8 +18,7 @@ PS1="\t \u <\w> <\$(git_branch)> "
 export ENABLE_HDR_WSI=1
 
 # My scripts paths
-export PATH="/home/genty/Sync/scripts:$PATH"
-export PATH="/home/genty/Sync/scripts/backup:$PATH"
+export PATH="/home/genty/scripts:$PATH"
 
 # Recommended HOME paths
 #export HOME="$HOME"/home/genty
