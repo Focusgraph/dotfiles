@@ -24,3 +24,4 @@ scripts
 .config/VirtualBox
 .config/VSCodium/
 .config/falkon/
+.config/okular*
