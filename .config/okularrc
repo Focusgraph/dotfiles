@@ -1,0 +1,16 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Entrenos/202504.pdf
+Name1[$e]=202504.pdf
+
+[UiSettings]
+ColorScheme=Breeze Light
