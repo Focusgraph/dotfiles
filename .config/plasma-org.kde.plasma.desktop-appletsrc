@@ -133,7 +133,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][2][Applets][7][Applets][20][Configuration]
-PreloadWeight=90
+PreloadWeight=95
 
 [Containments][2][Applets][7][Applets][20][Configuration][General]
 currentTab=streams
@@ -151,7 +151,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 
 [Containments][2][Applets][7][Applets][25]
 immutability=1
