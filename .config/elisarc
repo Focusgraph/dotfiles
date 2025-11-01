@@ -1,0 +1,11 @@
+[ElisaFileIndexer]
+RootPath[$e]=$HOME/Archive/Music
+
+[UiSettings]
+ColorScheme=Breeze Dark
+
+[Views]
+InitialFilesViewPath=/home/genty/Archive/Music
+InitialView=AllAlbums
+SortRolePreferences=Album==ArtistRole
+ViewStylePreferences=Album==GridStyle
