@@ -1,27 +1,6 @@
 *
 !*/
 
-.cargo
-.local
-.vscode-oss/
-Archive
-Sync
-Send
-scripts
-
-!.gitignore
-!.bashrc
 !.config/**
 
-.config/mpv/scripts/mpv-twitch-chat
-.config/nvim/pack/nvim/start/nvim-lspconfig
-.config/dconf/*
-.config/.mozilla/**
-.config/gtk-2.0/*
-.config/pulse/*
-.config/rc/*
-.config/QtProject.conf
-.config/VirtualBox
-.config/VSCodium/
-.config/falkon/
-.config/okular*
+scripts
