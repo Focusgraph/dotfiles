@@ -1,6 +1,5 @@
 [General]
 Days Meta Infos=30
-
 Save Meta Infos=true
 Show Full Path in Title=false
 Show Menu Bar=true
@@ -11,6 +10,7 @@ Show Url Nav Bar=true
 [MainWindow]
 2560x1440 screen: Height=1368
 2560x1440 screen: Width=1279
+2560x1440 screen: Window-Maximized=true
 
 [filetree]
 editShade=183,220,246
@@ -22,3 +22,6 @@ showFullPathOnRoots=false
 showToolbar=true
 sortRole=0
 viewShade=211,190,222
+
+[kategit]
+lastExecutedGitCmds=git push origin main

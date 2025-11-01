@@ -2,8 +2,11 @@
 !*/
 
 !.config/**
+!.bashrc
+!.gitignore
 
 scripts
+Archive
 
 .config/Unknown Organization/
 .config/akonadi-firstrunrc
@@ -34,3 +37,9 @@ scripts
 .config/session/
 .config/specialmailcollectionsrc
 .config/user-dirs.locale
+.config/kde.org/elisa.conf
+.config/akonadiconsolerc
+.config/katemetainfos
+.config/plasma-org.kde.plasma.desktop-appletsrc
+.config/QtProject.conf
+

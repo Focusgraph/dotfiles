@@ -1,10 +1,11 @@
 [Desktop Entry]
-DefaultProfile=Profile 1.profile
+DefaultProfile=My Profile.profile
 
 [General]
 ConfigVersion=1
 
 [KonsoleWindow]
+AllowMenuAccelerators=true
 FocusFollowsMouse=true
 
 [UiSettings]

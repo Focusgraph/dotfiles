@@ -1,6 +1,10 @@
+[Activities][LastVirtualDesktop]
+00e95727-0350-45e0-9d03-a4e2f3ac8f9c=0aa03cc7-c953-4a36-b1d9-f27ca128d6a4
+
 [Desktops]
 Id_1=0aa03cc7-c953-4a36-b1d9-f27ca128d6a4
-Number=1
+Id_2=7c65bfb1-66c9-4097-a121-47733f6e46af
+Number=2
 Rows=1
 
 [NightColor]
@@ -17,6 +21,9 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][0aa03cc7-c953-4a36-b1d9-f27ca128d6a4][e9d231ff-ac18-460a-8707-3ff6c172c3f2]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][7c65bfb1-66c9-4097-a121-47733f6e46af][b4c80227-f96a-4969-b657-44c7127436b8]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
