@@ -1,11 +1,9 @@
 [ElisaFileIndexer]
-RootPath[$e]=$HOME/Archive/Music
+
+RootPath[$e]=/run/media/genty/128e4d47-b54a-41f5-912d-1bce43813719/Music
 
 [UiSettings]
-ColorScheme=Breeze Dark
+ColorScheme=Breeze Light
 
 [Views]
-InitialFilesViewPath=/home/genty/Archive/Music
-InitialView=AllAlbums
-SortRolePreferences=Album==ArtistRole
-ViewStylePreferences=Album==GridStyle
+InitialFilesViewPath=/run/media/genty/128e4d47-b54a-41f5-912d-1bce43813719/Music

@@ -1,7 +1,6 @@
 [General]
 Days Meta Infos=30
-Quickopen Filter Mode=0
-Quickopen List Mode=true
+
 Save Meta Infos=true
 Show Full Path in Title=false
 Show Menu Bar=true
@@ -9,22 +8,9 @@ Show Status Bar=true
 Show Tab Bar=true
 Show Url Nav Bar=true
 
-[KDE]
-widgetStyle=Fusion
-
-[KTextEditor Renderer]
-Animate Bracket Matching=false
-Auto Color Theme Selection=true
-Color Theme=Breeze Light
-Line Height Multiplier=1
-Show Indentation Lines=false
-Show Whole Bracket Expression=false
-Text Font=monospace,9,-1,2,400,0,0,0,0,0,0,0,0,0,0,1
-Text Font Features=
-Word Wrap Marker=false
-
 [MainWindow]
-2560x1440 screen: Window-Maximized=true
+2560x1440 screen: Height=1368
+2560x1440 screen: Width=1279
 
 [filetree]
 editShade=183,220,246
