@@ -4,3 +4,33 @@
 !.config/**
 
 scripts
+
+.config/Unknown Organization/
+.config/akonadi-firstrunrc
+.config/akonadi/
+.config/akonadi_contacts_resource_0rc
+.config/akonadi_ical_resource_0rc
+.config/akonadi_imap_resource_0rc
+.config/akonadi_imap_resource_1rc
+.config/akonadi_imap_resource_2rc
+.config/akonadi_imap_resource_3rc
+.config/akonadi_imap_resource_4rc
+.config/akonadi_imap_resource_5rc
+.config/akonadi_indexing_agentrc
+.config/akonadi_maildir_resource_0rc
+.config/akonadi_unifiedmailbox_agentrc
+.config/dconf/
+.config/emaildefaults
+.config/emailidentities
+.config/falkon/profiles/default/
+.config/kdeconnect/
+.config/kmail2rc
+.config/kmailsearchindexingrc
+.config/kwinoutputconfig.json
+.config/libaccounts-glib/
+.config/mailtransports
+.config/mozilla/
+.config/pulse/
+.config/session/
+.config/specialmailcollectionsrc
+.config/user-dirs.locale
