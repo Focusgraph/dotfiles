@@ -42,4 +42,12 @@ Archive
 .config/katemetainfos
 .config/plasma-org.kde.plasma.desktop-appletsrc
 .config/QtProject.conf
-
+.config/kdedefaults/kdeglobals
+.config/kdedefaults/ksplashrc
+.config/kdedefaults/package
+.config/ksmserverrc
+.config/xsettingsd/.conf
+.config/FreeTube/*
+!.config/FreeTube/settings.db
+.config/akonadi-migrationrc
+.config/fontconfig

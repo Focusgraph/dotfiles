@@ -1,0 +1,5 @@
+[Added Associations]
+x-scheme-handler/freetube=freetube.desktop;FreeTube.desktop;
+
+[Default Applications]
+x-scheme-handler/freetube=freetube.desktop

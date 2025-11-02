@@ -1,0 +1,12 @@
+[Common]
+OutlineIntensity=OutlineOff
+ShadowSize=ShadowSmall
+ShadowStrength=64
+
+[Style]
+TabBarDrawCenteredTabs=true
+
+[Windeco]
+ButtonSize=ButtonLarge
+DrawBackgroundGradient=true
+TitleAlignment=AlignLeft

@@ -4,3 +4,8 @@ TurnOffDisplayWhenIdle=false
 
 [AC][SuspendAndShutdown]
 AutoSuspendAction=0
+PowerButtonAction=0
+
+[Activities][8515e4bc-90e1-421e-a061-5818d6bd1536]
+InhibitScreenManagement=false
+InhibitSuspend=false

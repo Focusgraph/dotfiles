@@ -1,9 +1,14 @@
 [ElisaFileIndexer]
 RootPath[$e]=$HOME/Archive/Music
 
+[PlayerSettings]
+ShowProgressOnTaskBar=false
+ShowSystemTrayIcon=true
+
 [UiSettings]
 ColorScheme=Breeze Light
 
 [Views]
 InitialFilesViewPath=/home/genty/Archive/Music
+InitialView=AllAlbums
 ViewStylePreferences=Album==GridStyle
