@@ -1,6 +1,10 @@
 [AC][Display]
-TurnOffDisplayIdleTimeoutSec=-1
-TurnOffDisplayWhenIdle=false
+DimDisplayIdleTimeoutSec=900
+TurnOffDisplayIdleTimeoutSec=1800
+TurnOffDisplayIdleTimeoutWhenLockedSec=20
+
+[AC][Performance]
+PowerProfile=performance
 
 [AC][SuspendAndShutdown]
 AutoSuspendAction=0

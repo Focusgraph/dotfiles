@@ -1,3 +1,7 @@
+[FileDialogSize]
+2560x1440 screen: Height=426
+2560x1440 screen: Width=1418
+
 [KDiskFree]
 Device=100
 Free=80

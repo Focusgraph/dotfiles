@@ -7,6 +7,4 @@ ShadowStrength=64
 TabBarDrawCenteredTabs=true
 
 [Windeco]
-ButtonSize=ButtonLarge
-DrawBackgroundGradient=true
 TitleAlignment=AlignLeft

@@ -1,2 +1,6 @@
 [Libinput][1133][16514][Logitech MX Master 3]
 ScrollMethod=0
+
+[Mouse]
+cursorSize=36
+cursorTheme=breeze_cursors

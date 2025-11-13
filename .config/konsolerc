@@ -8,5 +8,8 @@ ConfigVersion=1
 AllowMenuAccelerators=true
 FocusFollowsMouse=true
 
+[TabBar]
+CloseTabButton=None
+
 [UiSettings]
 ColorScheme=

@@ -51,3 +51,6 @@ Archive
 !.config/FreeTube/settings.db
 .config/akonadi-migrationrc
 .config/fontconfig
+.config/unity3d
+.config/nicotine
+.config/kweather

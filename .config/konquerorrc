@@ -1,3 +1,6 @@
+[HTML Settings]
+DownloadManager=kget
+
 [SearchBar]
 CompletionMode=5
 CurrentEngine=duckduckgo

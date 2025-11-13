@@ -1,3 +1,6 @@
+[Notification Messages]
+klipperClearHistoryAskAgain=false
+
 [PlasmaTransientsConfig]
 PreloadWeight=0
 popupHeight=550
@@ -12,7 +15,7 @@ panelOpacity=0
 panelVisibility=0
 
 [PlasmaViews][Panel 2][Defaults]
-thickness=30
+thickness=34
 
 [PlasmaViews][Panel 35]
 floating=1

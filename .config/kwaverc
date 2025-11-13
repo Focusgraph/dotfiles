@@ -1,0 +1,17 @@
+[MainWindow]
+ToolBarsMovable=Enabled
+toolbars=3
+
+[MainWindow][Toolbar MainWidget Edit]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar MainWidget File]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar MainWidget Record/Playback]
+IconSize=32
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar MainWidget Zoom]
+IconSize=32
+ToolButtonStyle=IconOnly

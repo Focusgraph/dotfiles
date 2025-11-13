@@ -1,0 +1,12 @@
+[FileDialogSize]
+2560x1440 screen: Height=428
+2560x1440 screen: Width=1236
+
+[filelight_part]
+contrast=75
+scanAcrossMounts=true
+scanRemoteMounts=false
+scheme=0
+showFoldersSidebar=true
+showSmallFiles=true
+skipList[$d]

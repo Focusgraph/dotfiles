@@ -5,9 +5,6 @@ RootPath[$e]=$HOME/Archive/Music
 ShowProgressOnTaskBar=false
 ShowSystemTrayIcon=true
 
-[UiSettings]
-ColorScheme=Breeze Light
-
 [Views]
 InitialFilesViewPath=/home/genty/Archive/Music
 InitialView=AllAlbums

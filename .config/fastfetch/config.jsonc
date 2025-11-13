@@ -11,7 +11,7 @@
 		},
 
 		"color": {
-			"1": "#4f6c8f",
+			"1": "#399eb4",
 
 			"2": "#b8b8b8"
 		}
@@ -34,33 +34,33 @@
 	{
 		"type": "custom",
 
-		"key": "{##4f6c8f}┌───────────────{$1}┐\u001b[41D"
+		"key": "{##399eb4}┌───────────────{$1}┐\u001b[41D"
 	},
 
 	{
 		"type": "os",
 		
-		"key": "{##4f6c8f}│ {icon}  \u001b[s{sysname}\u001b[u\u001b[10C{$3}│{$2}"
+		"key": "{##399eb4}│ {icon}  \u001b[s{sysname}\u001b[u\u001b[10C{$3}│{$2}"
 	},
 
 	{
 		"type": "kernel",
 
-		"key": "{##4f6c8f}│ {icon}  \u001b[sKernel\u001b[u\u001b[10C{$3}│{$2}"
+		"key": "{##399eb4}│ {icon}  \u001b[sKernel\u001b[u\u001b[10C{$3}│{$2}"
 	},
 
 	{
 		"type": "custom",
 
-		"key": "{##4f6c8f}│───────────────{$1}│{#keys}\u001b[37D",
+		"key": "{##399eb4}│───────────────{$1}│{#keys}\u001b[37D",
 
-		"format": "{##4f6c8f} Hardware "
+		"format": "{##399eb4} Hardware "
 	},
 	
 	{
 		"type": "cpu",
 
-		"key": "{##4f6c8f}│ {icon}  CPU       {$3}│{#keys}{$2}",
+		"key": "{##399eb4}│ {icon}  CPU       {$3}│{#keys}{$2}",
 
 		"showPeCoreCount": false,
 
@@ -70,7 +70,7 @@
 	{
 		"type": "gpu",
 
-		"key": "{##4f6c8f}│ {icon}  GPU       {$3}│{#keys}{$2}",
+		"key": "{##399eb4}│ {icon}  GPU       {$3}│{#keys}{$2}",
 
 		"format": "{name}"
 	},
@@ -78,7 +78,7 @@
 	{
 		"type": "memory",
 
-		"key": "{##4f6c8f}│ {icon}  RAM       {$3}│{#keys}{$2}",
+		"key": "{##399eb4}│ {icon}  RAM       {$3}│{#keys}{$2}",
 	
 		"format": "{used} / {total}"
 	},
@@ -86,7 +86,7 @@
 	{
 		"type": "swap",
 
-		"key": "{##4f6c8f}│ {icon}  SWAP      {$3}│{#keys}{$2}",
+		"key": "{##399eb4}│ {icon}  SWAP      {$3}│{#keys}{$2}",
 
 		"format": "{used} / {total}"
 	},
@@ -94,7 +94,7 @@
 	{
 		"type": "disk",
 
-		"key": "{##4f6c8f}│ {icon}  Disk      {$3}│{#keys}{$2}",
+		"key": "{##399eb4}│ {icon}  Disk      {$3}│{#keys}{$2}",
 
 		"format": "{size-used} / {size-total} > {filesystem}"
 	},
@@ -102,26 +102,26 @@
 	{
 		"type": "battery",
 
-		"key": "{##4f6c8f}│ {icon}  Battery   {$3}│{#keys}{$2}"
+		"key": "{##399eb4}│ {icon}  Battery   {$3}│{#keys}{$2}"
 	},
 	{
 		"type": "custom",
 
-		"key": "{##4f6c8f}│───────────────{$1}│{#keys}\u001b[37D",
+		"key": "{##399eb4}│───────────────{$1}│{#keys}\u001b[37D",
 
-		"format": "{##4f6c8f} Desktop "
+		"format": "{##399eb4} Desktop "
 	},
 
 	{
 		"type": "de",
 
-		"key": "{##4f6c8f}│ {icon}  Desktop   {$3}│{#keys}{$2}"
+		"key": "{##399eb4}│ {icon}  Desktop   {$3}│{#keys}{$2}"
 	},
 
 	{
 		"type": "wm",
 
-		"key": "{##4f6c8f}│ {icon}  WM        {$3}│{#keys}{$2}",
+		"key": "{##399eb4}│ {icon}  WM        {$3}│{#keys}{$2}",
 
 		"format": "{pretty-name} {version}< {protocol-name}"
 	},
@@ -129,7 +129,7 @@
 	{
 		"type": "display",
 
-		"key": "{##4f6c8f}│ {icon}  Display   {$3}│{#keys}{$2}",
+		"key": "{##399eb4}│ {icon}  Display   {$3}│{#keys}{$2}",
 
 		"format": "{width}x{height} / {refresh-rate}"
 	},
@@ -137,7 +137,7 @@
 	{
 		"type": "gpu",
 
-		"key": "{##4f6c8f}│ {icon}  Driver    {$3}│{#keys}{$2}",
+		"key": "{##399eb4}│ {icon}  Driver    {$3}│{#keys}{$2}",
 
 		"format": "{driver}"
 	},
@@ -145,47 +145,47 @@
 	{
 		"type": "custom",
 
-		"key": "{##4f6c8f}│───────────────{$1}│{#keys}\u001b[37D",
+		"key": "{##399eb4}│───────────────{$1}│{#keys}\u001b[37D",
 
-		"format": "{##4f6c8f} Terminal "
+		"format": "{##399eb4} Terminal "
 	},
 
 	{
 		"type": "shell",
 
-		"key": "{##4f6c8f}│ {icon}  Shell     {$3}│{#keys}{$2}"
+		"key": "{##399eb4}│ {icon}  Shell     {$3}│{#keys}{$2}"
 	},
 
 	{
 		"type": "terminal",
 
-		"key": "{##4f6c8f}│ {icon}  Terminal  {$3}│{#keys}{$2}"
+		"key": "{##399eb4}│ {icon}  Terminal  {$3}│{#keys}{$2}"
 	},
 
 	{
 		"type": "terminalfont",
 
-		"key": "{##4f6c8f}│ {icon}  Term Font {$3}│{#keys}{$2}"
+		"key": "{##399eb4}│ {icon}  Term Font {$3}│{#keys}{$2}"
 	},
 
 	{
 		"type": "packages",
 
-		"key": "{##4f6c8f}│ {icon}  Packages  {$3}│{#keys}{$2}"
+		"key": "{##399eb4}│ {icon}  Packages  {$3}│{#keys}{$2}"
 	},
 
 	{
 		"type": "custom",
 
-		"key": "{##4f6c8f}│───────────────{$1}│{#keys}\u001b[36D",
+		"key": "{##399eb4}│───────────────{$1}│{#keys}\u001b[36D",
 
-		"format": "{##4f6c8f} Uptime "
+		"format": "{##399eb4} Uptime "
 	},
 
 	{
 		"type": "uptime",
 
-		"key": "{##4f6c8f}│ {icon}  Uptime    {$3}│{#keys}{$2}"
+		"key": "{##399eb4}│ {icon}  Uptime    {$3}│{#keys}{$2}"
 	},
 
 	{
@@ -193,7 +193,7 @@
 
 		"keyIcon": "",
 
-		"key": "{##4f6c8f}│ {icon}  OS Age    {$3}│{#keys}{$2}",
+		"key": "{##399eb4}│ {icon}  OS Age    {$3}│{#keys}{$2}",
 
 		"folders": "/",                                   // Check root filesystem
 
@@ -202,7 +202,7 @@
 
 	{
 		"type": "custom",
-		"key": "{##4f6c8f}└───────────────{$1}┘{#keys}",
+		"key": "{##399eb4}└───────────────{$1}┘{#keys}",
 		"format": ""
 	}
 	]

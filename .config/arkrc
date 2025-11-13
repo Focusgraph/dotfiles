@@ -1,3 +1,6 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/ISOs/
+
 [General]
 LockSidebar=true
 ShowSidebar=true

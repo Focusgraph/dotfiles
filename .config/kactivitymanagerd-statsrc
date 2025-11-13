@@ -1,3 +1,9 @@
+[Favorites-org.kde.plasma.kicker.favorites.instance-91-00e95727-0350-45e0-9d03-a4e2f3ac8f9c]
+ordering=
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-91-global]
+ordering=
+
 [Favorites-org.kde.plasma.kickoff.favorites.instance-3-00e95727-0350-45e0-9d03-a4e2f3ac8f9c]
 ordering=preferred://browser,org.kde.kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.discover.desktop
 
