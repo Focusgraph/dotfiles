@@ -1,6 +1,8 @@
 [FileDialogSize]
-2560x1440 screen: Height=426
-2560x1440 screen: Width=1418
+1920x1200 screen: Height=537
+1920x1200 screen: Width=953
+2560x1440 screen: Height=424
+2560x1440 screen: Width=1273
 
 [KDiskFree]
 Device=100

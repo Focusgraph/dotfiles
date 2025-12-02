@@ -1,3 +1,6 @@
+[Libinput][10182][3985][GXTP5440:00 27C6:0F91 Touchpad]
+NaturalScroll=true
+
 [Libinput][1133][16514][Logitech MX Master 3]
 ScrollMethod=0
 

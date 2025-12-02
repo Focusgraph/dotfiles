@@ -1,3 +1,6 @@
+[$Version]
+update_info=filepicker.upd:filepicker-remove-old-previews-entry
+
 [ColorEffects:Disabled]
 ChangeSelectionColor=
 Color=56,56,56
@@ -106,13 +109,12 @@ ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
 DirSelectDialog Size=947,595
-History Items[$e]=file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/Archive,file:$HOME/Archive/Music,file:$HOME/.config,file:$HOME/Archive/Music,file:$HOME/Archive/Music,file:$HOME/backtest,file:///run/media/genty/128e4d47-b54a-41f5-912d-1bce43813719/Music
+History Items[$e]=file:$HOME/Music,file:$HOME/Music,file:$HOME/Archive/Games,file:$HOME/Archive,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/Archive,file:$HOME/Archive/Music,file:$HOME/.config,file:$HOME/Archive/Music,file:$HOME/Archive/Music,file:$HOME/backtest,file:///run/media/genty/128e4d47-b54a-41f5-912d-1bce43813719/Music
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
 AccentColor=57,158,180
-ColorScheme=BreezeClassic
-ColorSchemeHash=9f63c7711a13123582e720791ea0f8c0172977d2
+ColorSchemeHash=b06aba260488fc495d1c2e8a062537753fbc403a
 UseSystemBell=true
 XftAntialias=true
 XftHintStyle=hintfull
@@ -126,6 +128,7 @@ toolBarFont=Hurmit Nerd Font,12,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Light
 
 [KDE]
 AnimationDurationFactor=0.7071067811865475
+ShowDeleteCommand=false
 SingleClick=true
 
 [KFileDialog Settings]
@@ -152,6 +155,10 @@ Dialog Size=1288,742
 
 [Locale]
 BinaryUnitDialect=2
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
 
 [WM]
 activeBackground=111,182,198

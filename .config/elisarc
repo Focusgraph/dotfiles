@@ -1,11 +1,12 @@
 [ElisaFileIndexer]
-RootPath[$e]=$HOME/Archive/Music
+RootPath[$e]=$HOME/Music
 
 [PlayerSettings]
 ShowProgressOnTaskBar=false
 ShowSystemTrayIcon=true
 
 [Views]
-InitialFilesViewPath=/home/genty/Archive/Music
+InitialFilesViewPath=/home/genty/Music
 InitialView=AllAlbums
+SortRolePreferences=Album==TitleRole
 ViewStylePreferences=Album==GridStyle

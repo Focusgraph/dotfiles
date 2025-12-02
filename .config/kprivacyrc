@@ -1,5 +1,5 @@
 [Cleaning]
-ClearAllCookies=true
+ClearAllCookies=false
 ClearAllCookiesPolicies=true
 ClearFavIcons=true
 ClearFormCompletion=true
@@ -9,4 +9,4 @@ ClearRunCommandHistory=true
 ClearSavedClipboardContents=true
 ClearThumbnails=true
 ClearWebCache=true
-ClearWebHistory=true
+ClearWebHistory=false

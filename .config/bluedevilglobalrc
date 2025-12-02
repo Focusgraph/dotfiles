@@ -1,2 +1,5 @@
+[Adapters]
+7C:FA:80:BE:8A:82_powered=true
+
 [Devices]
-connectedDevices=
+connectedDevices=E0:8C:AF:70:0A:C4

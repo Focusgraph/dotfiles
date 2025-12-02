@@ -6,9 +6,21 @@ ThumbnailSplitterSizes=436,125
 
 [Recent Files]
 File1[$e]=$HOME/Downloads/IMG_1439.jpeg
+File2[$e]=$HOME/Notes/My_Vault/2ed1f590c477f4f86793ed25a3f20c3633f742ee.svg
+File3[$e]=$HOME/Notes/My_Vault/Pasted image 20250709080127.png
+File4[$e]=$HOME/Notes/My_Vault/3. Resources/Backward Tracing.png
+File5[$e]=$HOME/Notes/My_Vault/3. Resources/Screenshot 2025-03-25 205417.png
+File6[$e]=$HOME/Notes/My_Vault/3. Resources/Steps to create a program.png
+File7[$e]=$HOME/Notes/View_Projection.png
 Name1[$e]=IMG_1439.jpeg
+Name2[$e]=2ed1f590c477f4f86793ed25a3f20c3633f742ee.svg
+Name3[$e]=Pasted image 20250709080127.png
+Name4[$e]=Backward Tracing.png
+Name5[$e]=Screenshot 2025-03-25 205417.png
+Name6[$e]=Steps to create a program.png
+Name7[$e]=View_Projection.png
 
 [SideBar]
-InformationSplitterSizes=249,290
+InformationSplitterSizes=247,289
 IsVisible ViewMode=true
-SideBarSplitterSizes=280,1019
+SideBarSplitterSizes=280,1406

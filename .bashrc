@@ -13,22 +13,22 @@ git_branch() {
   fi
 }
 
-PS1="\t \u <\w> <\$(git_branch)> "
+PS1="\u <\w> <\$(git_branch)> "
 
-export ENABLE_HDR_WSI=1
+export VISUAL=nvim
+export EDITOR="$VISUAL"
 
 # My scripts paths
-export PATH="/home/genty/scripts:$PATH"
-
-# Recommended HOME paths
-#export HOME="$HOME"/home/genty
-#export XDG_DATA_HOME="$HOME/.local/share:$XDG_DATA_HOME"
-#export XDG_CONFIG_HOME="$XDG_CONFIG_HOME"$HOME/.config
-#export XDG_STATE_HOME="$HOME/.local/state:$XDG_STATE_HOME"
-#export XDG_CACHE_HOME="$HOME/.cache:$XDG_CACHE_HOME"
-
-#export HISTFILE="${XDG_STATE_HOME}"/bash/history
-#export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export PATH="/home/genty/bash_scripts:$PATH"
 
 # doas autocompletion
 complete -F _root_command doas
+
+source /usr/share/bash-completion/completions/fzf
+source /usr/share/fzf/key-bindings.bash
+
+eval "$(starship init bash)"
+eval "$(zoxide init bash)"
+
+# uv
+export PATH="/home/genty/.local/bin:$PATH"

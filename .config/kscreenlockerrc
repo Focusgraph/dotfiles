@@ -2,3 +2,7 @@
 Autolock=false
 LockGrace=30
 Timeout=0
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/home/genty/Wallpapers/PlanetOfLana.png
+PreviewImage=/home/genty/Wallpapers/PlanetOfLana.png

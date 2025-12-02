@@ -1,5 +1,15 @@
+[Desktop Entry]
+DefaultProfile=Genty.profile
+
 [Dialogs]
 FirstRun=false
 
+[Shortcuts]
+close-active-terminal=Ctrl+Shift+Space
+close-session=Ctrl+W
+new-session=Ctrl+T
+split-top-bottom=Ctrl+Space
+
 [Window]
-Height=57
+DynamicTabTitles=true
+Height=75

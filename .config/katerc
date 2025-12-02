@@ -31,7 +31,7 @@ Show Url Nav Bar=true
 Show output view for message type=1
 Show text for left and right sidebar=false
 Show welcome view for new window=true
-Startup Session=manual
+Startup Session=last
 Stash new unsaved files=true
 Stash unsaved file changes=false
 Sync section size with tab positions=false
@@ -143,9 +143,17 @@ Word Completion=true
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
+[Konsole]
+AutoSyncronizeMode=0
+KonsoleEscKeyBehaviour=true
+KonsoleEscKeyExceptions=vi,vim,nvim,git
+RemoveExtension=false
+RunPrefix=
+SetEditor=false
+
 [MainWindow]
-2560x1440 screen: Height=1360
-2560x1440 screen: Width=1365
+2560x1440 screen: Height=657
+2560x1440 screen: Width=1208
 
 [filetree]
 editShade=183,220,246

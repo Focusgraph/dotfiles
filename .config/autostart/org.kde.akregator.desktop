@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Qt;KDE;Network;News;Feed;
+Comment=A KDE News Feed Reader
+Exec=akregator %u
+GenericName=Feed Reader
+Icon=akregator
+MimeType=application/atom+xml;application/rss+xml;application/rdf+xml;x-scheme-handler/feed;
+Name=Akregator
+SingleMainWindow=true
+Type=Application
+Version=1.5
+X-DocPath=akregator/index.html

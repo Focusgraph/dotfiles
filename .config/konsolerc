@@ -1,5 +1,5 @@
 [Desktop Entry]
-DefaultProfile=My Profile.profile
+DefaultProfile=Genty.profile
 
 [General]
 ConfigVersion=1
@@ -7,9 +7,14 @@ ConfigVersion=1
 [KonsoleWindow]
 AllowMenuAccelerators=true
 FocusFollowsMouse=true
+ShowWindowTitleOnTitleBar=true
+
+[Notification Messages]
+CloseAllEmptyTabs=true
 
 [TabBar]
 CloseTabButton=None
+CloseTabOnMiddleMouseButton=true
 
 [UiSettings]
 ColorScheme=

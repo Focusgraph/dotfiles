@@ -1,0 +1,38 @@
+[Devices][/org/freedesktop/UDisks2/block_devices/nvme0n1p1]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=1.0 GiB Internal Drive (nvme0n1p1)
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/nvme0n1p3]
+EverMounted=true
+Icon=drive-harddisk-root
+LastNameSeen=451.9 GiB Internal Drive (nvme0n1p3)
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda1]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=465.8 GiB Removable Media
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda2]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=464.8 GiB Removable Media
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sdb1]
+Icon=drive-removable-media-usb
+LastNameSeen=465.8 GiB Removable Media
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sdb2]
+Icon=drive-removable-media-usb
+LastNameSeen=EFI boot partition
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sdb3]
+Icon=drive-removable-media-usb
+LastNameSeen=gentoo-amd64-livegui
+
+[General]
+AutomountEnabled=true
+AutomountOnLogin=true
+AutomountOnPlugin=true

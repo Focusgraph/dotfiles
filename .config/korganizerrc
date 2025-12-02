@@ -1,0 +1,95 @@
+[Calendar]
+Default Calendar=-1
+
+[CollectionTreeView]
+Expansion=
+HorizontalScroll=0
+VerticalScroll=0
+
+[DefaultAgendaSideBySideView]
+ColumnTitles=Agenda 1,Agenda 2
+CustomNumberOfColumns=2
+UseCustomCollectionSelection=false
+UseCustomColumnSetup=false
+
+[General]
+CalendarFilters=
+Current Filter=
+Current View=Agenda
+PreviousNewFeaturesMD5=9d7MtXN0HTq+Re4M2Qlh0Q==
+Range Mode=3
+
+[General View]
+TodosUseCategoryColors=true
+
+[GlobalCollectionSelection]
+Current=x-1
+Selection=c2,c8
+
+[GlobalCollectionView]
+Expansion=
+HorizontalScroll=0
+VerticalScroll=0
+
+[Internal Settings]
+DefaultResourceColorSeed=2
+
+[KOrganizer Geometry]
+Separator1=523,779
+Separator2=0,452,499,300
+
+[MainWindow][Toolbar korganizer_toolbar]
+ToolButtonStyle=TextUnderIcon
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Settings]
+DateNavigatorVisible=false
+EventViewerVisible=true
+ResourceViewVisible=true
+TodoViewVisible=true
+
+[Sidebar Todo View]
+ColumnOrder=0,1,2,3,4,5,6,7,8,9
+ColumnVisibility=true,false,false,false,true,true,false,false,false,false
+ColumnWidths=257,0,0,0,136,114,0,0,0,0
+FlatView=true
+SortAscending=1
+SortColumn=0
+
+[Timescale]
+Timescale Timezones=
+
+[Todo View]
+ColumnOrder=0,1,2,3,4,5,6,7,8,9
+ColumnVisibility=true,false,true,false,true,true,false,false,false,false
+ColumnWidths=399,0,114,0,136,114,0,0,0,0
+FlatView=true
+FullView=false
+SortAscending=1
+SortColumn=0
+
+[TodoTreeViewState]
+Current=i4
+Expansion=
+HorizontalScroll=0
+Selection=
+VerticalScroll=0
+
+[TodoTreeViewStateS]
+Current=i0
+Expansion=
+HorizontalScroll=0
+Selection=
+VerticalScroll=0
+
+[Toolbar korganizer_toolbar]
+ToolButtonStyle=TextUnderIcon
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Views]
+Separator AgendaView=166,1057
+ShownDatesCount=7

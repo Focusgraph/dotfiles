@@ -1,6 +1,24 @@
+[ContentDisplay]
+DirectorySizeMode=ContentSize
+
+[FoldersPanel]
+HiddenFilesShown=true
+
 [General]
+DynamicView=true
+FilterBar=true
+OpenExternallyCalledFolderInNewTab=true
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+ShowSelectionToggle=false
+ShowStatusBar=FullWidth
+SortingChoice=CaseSensitiveSorting
+UseTabForSwitchingSplitView=true
 Version=202
 ViewPropsTimestamp=2025,11,1,9,59,56.521
+
+[InformationPanel]
+dateFormat=ShortFormat
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -8,3 +26,6 @@ Places Icons Static Size=22
 
 [MainWindow]
 MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gdk-pixbuf-thumbnailer,gsthumbnail,librsvg,svgthumbnail,ffmpegthumbs

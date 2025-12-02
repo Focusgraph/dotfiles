@@ -38,7 +38,7 @@ mute=Volume Mute,Volume Mute,Mute
 
 [ksmserver]
 Halt Without Confirmation=none,,Shut Down Without Confirmation
-Lock Session=Screensaver,Meta+L\tScreensaver,Lock Session
+Lock Session=none,Meta+L\tScreensaver,Lock Session
 Log Out=none,Ctrl+Alt+Del,Show Logout Screen
 Log Out Without Confirmation=none,,Log Out Without Confirmation
 LogOut=none,,Log Out
@@ -285,13 +285,15 @@ activate task manager entry 6=none,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
+activate widget 13=none,none,Activate Camera Indicator Widget
 activate widget 31=none,none,Activate Application Menu Widget
-activate widget 33=none,none,Activate Digital Clock Widget
+activate widget 32=none,none,Activate PlasMusic Toolbar Widget
+activate widget 33=none,none,Activate Kurve Widget
 activate widget 73=none,none,Activate Icons-Only Task Manager Widget
 activate widget 83=none,none,Activate Weather Report Widget
 activate widget 89=none,none,Activate PlasMusic Toolbar Widget
 activate widget 91=none,none,Activate Application Menu Widget
-activate widget 96=,none,Activate simple separator Widget
+activate widget 96=none,none,Activate simple separator Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels

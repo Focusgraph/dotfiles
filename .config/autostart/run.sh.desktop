@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/genty/.local/share/plasma/plasmoids/airpods.battery.widget.frontend/run.sh
+Icon=application-x-shellscript
+Name=run.sh
+Type=Application
+X-KDE-AutostartScript=true
