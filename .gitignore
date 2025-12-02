@@ -10,6 +10,7 @@ Archive
 .local
 .cargo
 
+.config/FreeTube
 .config/Unknown Organization/
 .config/akonadi-firstrunrc
 .config/akonadi/
