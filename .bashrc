@@ -21,7 +21,21 @@ export EDITOR="$VISUAL"
 # My scripts paths
 export PATH="/home/genty/bash_scripts:$PATH"
 
+# Scripts aliases
+alias backupsys-snapshots="backupsys-snapshots.sh"
+alias backupsys="backupsys.sh"
+alias cleansys="cleansys.sh"
+alias show-emerge="show-emerge.sh"
+alias upsys="upsys.sh"
+alias watch-ccache="watch-ccache.sh"
+alias watch-emerge="watch-emerge.sh"
+alias archive="archive.sh"
+
+alias zcomp-dir="zstd --rm -r -T12 --long --adapt --exclude-compressed"
+alias zdecomp-dir="zstd --rm -d -r"
+
 # doas autocompletion
+alias doas="doas " # Makes possible to use aliases with doas
 complete -F _root_command doas
 
 source /usr/share/bash-completion/completions/fzf
@@ -32,3 +46,8 @@ eval "$(zoxide init bash)"
 
 # uv
 export PATH="/home/genty/.local/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/genty/.lmstudio/bin"
+# End of LM Studio CLI section
+

@@ -1,31 +1,57 @@
+[CompactMode]
+PreviewSize=16
+
 [ContentDisplay]
 DirectorySizeMode=ContentSize
+UsePermissionsFormat=CombinedFormat
+UseShortRelativeDates=false
+
+[DetailsMode]
+LeftPadding=0
+PreviewSize=16
+RightPadding=0
+
+[ExtractDialog]
+2560x1440 screen: Height=677
+2560x1440 screen: Width=1248
+DirHistory[$e]=$HOME/Games/,$HOME/Downloads/
 
 [FoldersPanel]
 HiddenFilesShown=true
 
 [General]
-DynamicView=true
-FilterBar=true
-OpenExternallyCalledFolderInNewTab=true
-ShowFullPath=true
-ShowFullPathInTitlebar=true
-ShowSelectionToggle=false
-ShowStatusBar=FullWidth
-SortingChoice=CaseSensitiveSorting
-UseTabForSwitchingSplitView=true
+DoubleClickViewAction=none
 Version=202
 ViewPropsTimestamp=2025,11,1,9,59,56.521
 
+[IconsMode]
+IconSize=96
+MaximumTextLines=0
+PreviewSize=96
+
 [InformationPanel]
 dateFormat=ShortFormat
+previewsShown=false
+showHovered=false
 
 [KFileDialog Settings]
-Places Icons Auto-resize=false
+Places Icons Auto-resize=true
 Places Icons Static Size=22
 
-[MainWindow]
-MenuBar=Disabled
+[MainWindow][Toolbar mainToolBar]
+IconSize=32
+ToolButtonStyle=IconOnly
+
+[PlacesPanel]
+IconSize=-1
 
 [PreviewSettings]
-Plugins=comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gdk-pixbuf-thumbnailer,gsthumbnail,librsvg,svgthumbnail,ffmpegthumbs
+Plugins=comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gdk-pixbuf-thumbnailer,gsthumbnail,librsvg,svgthumbnail,textthumbnail,ffmpegthumbs
+
+[Toolbar mainToolBar]
+IconSize=32
+ToolButtonStyle=IconOnly
+
+[ViewPropertiesDialog]
+2560x1440 screen: Height=380
+2560x1440 screen: Width=504

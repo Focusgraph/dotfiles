@@ -1,3 +1,10 @@
 [General]
 FreeFloating=true
 history=
+
+[Plugins]
+baloosearchEnabled=true
+krunner_webshortcutsEnabled=true
+
+[Plugins][Favorites]
+plugins=krunner_services,krunner_powerdevil,krunner_systemsettings

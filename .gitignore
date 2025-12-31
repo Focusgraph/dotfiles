@@ -9,7 +9,10 @@ bash_scripts
 Archive
 .local
 .cargo
+ladybird
+proton-ge-custom
 
+.config/ktorrentrc
 .config/FreeTube
 .config/Unknown Organization/
 .config/akonadi-firstrunrc

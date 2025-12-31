@@ -1,0 +1,5 @@
+[KSystemLogGeneral]
+StartupLogMode=
+
+[XSessionLogMode]
+LogFilePath=/home/genty/.xsession-errors

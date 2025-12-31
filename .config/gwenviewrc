@@ -5,22 +5,28 @@ LastUsedVersion=210800
 ThumbnailSplitterSizes=436,125
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/IMG_1439.jpeg
-File2[$e]=$HOME/Notes/My_Vault/2ed1f590c477f4f86793ed25a3f20c3633f742ee.svg
-File3[$e]=$HOME/Notes/My_Vault/Pasted image 20250709080127.png
-File4[$e]=$HOME/Notes/My_Vault/3. Resources/Backward Tracing.png
-File5[$e]=$HOME/Notes/My_Vault/3. Resources/Screenshot 2025-03-25 205417.png
-File6[$e]=$HOME/Notes/My_Vault/3. Resources/Steps to create a program.png
-File7[$e]=$HOME/Notes/View_Projection.png
-Name1[$e]=IMG_1439.jpeg
-Name2[$e]=2ed1f590c477f4f86793ed25a3f20c3633f742ee.svg
-Name3[$e]=Pasted image 20250709080127.png
-Name4[$e]=Backward Tracing.png
-Name5[$e]=Screenshot 2025-03-25 205417.png
-Name6[$e]=Steps to create a program.png
-Name7[$e]=View_Projection.png
+File1[$e]=$HOME/Notes/My_Vault/3. Resources/Screenshot 2025-03-25 205417.png
+File10[$e]=/usr/share/wallpapers/Patak/contents/images/5120x2880.png
+File2[$e]=$HOME/Notes/My_Vault/3. Resources/Steps to create a program.png
+File3[$e]=$HOME/Notes/View_Projection.png
+File4[$e]=$HOME/iPhone_Sync/Permiso_Circulacion_Seat.JPG
+File5[$e]=$HOME/iPhone_Sync/DNI_Papi.JPG
+File6[$e]=$HOME/iPhone_Sync/Permiso_Circulacion_Dacia.JPG
+File7[$e]=$HOME/DozenValues.png
+File8[$e]=$HOME/Wallpapers/NixOS_Black_Sun.png
+File9[$e]=/usr/share/wallpapers/Patak/contents/images/1080x1920.png
+Name1[$e]=Screenshot 2025-03-25 205417.png
+Name10[$e]=5120x2880.png
+Name2[$e]=Steps to create a program.png
+Name3[$e]=View_Projection.png
+Name4[$e]=Permiso_Circulacion_Seat.JPG
+Name5[$e]=DNI_Papi.JPG
+Name6[$e]=Permiso_Circulacion_Dacia.JPG
+Name7[$e]=DozenValues.png
+Name8[$e]=NixOS_Black_Sun.png
+Name9[$e]=1080x1920.png
 
 [SideBar]
-InformationSplitterSizes=247,289
+InformationSplitterSizes=589,688
 IsVisible ViewMode=true
-SideBarSplitterSizes=280,1406
+SideBarSplitterSizes=297,2212

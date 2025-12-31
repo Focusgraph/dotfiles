@@ -1,5 +1,5 @@
 [ElisaFileIndexer]
-RootPath[$e]=$HOME/Music
+RootPath[$e]=$HOME
 
 [PlayerSettings]
 ShowProgressOnTaskBar=false

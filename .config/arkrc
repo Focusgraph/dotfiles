@@ -1,5 +1,5 @@
 [ExtractDialog]
-DirHistory[$e]=$HOME/Downloads/,$HOME/ISOs/
+DirHistory[$e]=$HOME/Downloads/pyramyd_builder/,$HOME/Downloads/,$HOME/ISOs/
 
 [General]
 LockSidebar=true

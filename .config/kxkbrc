@@ -1,4 +1,5 @@
 [Layout]
-LayoutList=us
+DisplayNames=,
+LayoutList=us,us
 Use=true
-VariantList=colemak
+VariantList=colemak,

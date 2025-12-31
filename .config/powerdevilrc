@@ -1,5 +1,5 @@
 [AC][Performance]
-PowerProfile=performance
+PowerProfile=balanced
 
 [AC][SuspendAndShutdown]
 AutoSuspendIdleTimeoutSec=1800
@@ -19,7 +19,6 @@ LidAction=64
 BatteryCriticalAction=0
 BatteryCriticalLevel=10
 BatteryLowLevel=30
-PeripheralBatteryLowLevel=20
 
 [LowBattery][Display]
 UseProfileSpecificDisplayBrightness=false

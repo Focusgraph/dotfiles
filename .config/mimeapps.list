@@ -1,7 +1,15 @@
 [Added Associations]
 text/markdown=org.kde.ghostwriter.desktop;org.kde.kate.desktop;org.kde.mobile.okular_txt.desktop;emacsclient.desktop;okularApplication_txt.desktop;geany.desktop;emacs.desktop;nvim.desktop;
 x-scheme-handler/freetube=freetube.desktop;FreeTube.desktop;
+x-scheme-handler/mo=Motrix.desktop
+x-scheme-handler/motrix=Motrix.desktop
+x-scheme-handler/magnet=Motrix.desktop
+x-scheme-handler/lmstudio=LM Studio.desktop
 
 [Default Applications]
 text/markdown=org.kde.ghostwriter.desktop;
 x-scheme-handler/freetube=freetube.desktop
+x-scheme-handler/mo=Motrix.desktop
+x-scheme-handler/motrix=Motrix.desktop
+x-scheme-handler/magnet=Motrix.desktop
+x-scheme-handler/lmstudio=LM Studio.desktop

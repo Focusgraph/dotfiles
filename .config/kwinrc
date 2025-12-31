@@ -1,18 +1,8 @@
-[Activities][LastVirtualDesktop]
-00e95727-0350-45e0-9d03-a4e2f3ac8f9c=0aa03cc7-c953-4a36-b1d9-f27ca128d6a4
-
 [Desktops]
 Id_1=0aa03cc7-c953-4a36-b1d9-f27ca128d6a4
-Id_10=eab75c8c-27a0-4753-8be4-5539388beaea
-Id_2=7c65bfb1-66c9-4097-a121-47733f6e46af
-Id_3=fe0cbb69-ff91-4b3f-9a40-0b76da0b3900
-Id_4=0551571e-c4b9-40bc-9e59-15515c9bf3d2
-Id_5=62c63c58-89ac-49c7-a89f-eaa158a66751
-Id_6=000e1a80-305c-4e6d-a5a4-8924327a15f1
-Id_7=0f0b3456-006d-4dc1-a8f3-a425ae16282c
-Id_8=4d2af2d3-2271-44d3-b53e-b148a6710b6e
-Id_9=80048ef2-bb46-4efa-8f71-4a2f23aac04f
-Number=10
+Id_2=10334978-88b0-454f-acf5-7220c685c6c3
+Id_3=94543e3c-b305-43a8-af62-acc00882697a
+Number=3
 Rows=1
 
 [Effect-hidecursor]
@@ -33,22 +23,15 @@ Drag=65
 MoveFactor=9
 Stiffness=35
 
-[MouseBindings]
-CommandActiveTitlebar2=Minimize
-
 [NightColor]
 Active=true
-LatitudeFixed=36.52741785961237
-LongitudeFixed=-4.441804760421434
-Mode=Location
 NightTemperature=5000
 
 [Plugins]
 desktopchangeosdEnabled=false
 hidecursorEnabled=true
-krohnkiteEnabled=true
+krohnkiteEnabled=false
 shakecursorEnabled=false
-sheetEnabled=true
 zoomEnabled=false
 
 [Script-krohnkite]
@@ -60,14 +43,10 @@ screenGapLeft=5
 screenGapRight=5
 screenGapTop=5
 
-[SubSession: 8515e4bc-90e1-421e-a061-5818d6bd1536]
-active=-1
-count=0
-
 [TabBox]
-LayoutName=compact
+ActivitiesMode=0
+LayoutName=sidebar
 OrderMinimizedMode=1
-SwitchingMode=1
 
 [Tiling]
 padding=4
@@ -100,10 +79,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][0aa03cc7-c953-4a36-b1d9-f27ca128d6a4][8fd919d5-9ec8-44a3-a4ea-abf2d96d4a1b]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.504296875},{"width":0.495703125}]}
 
 [Tiling][0aa03cc7-c953-4a36-b1d9-f27ca128d6a4][99eac079-23ef-434a-a9b1-1ed244ceb4ff]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.4276041666666667},{"width":0.572395833333333}]}
 
 [Tiling][0aa03cc7-c953-4a36-b1d9-f27ca128d6a4][b4c80227-f96a-4969-b657-44c7127436b8]
 tiles={"layoutDirection":"floating","tiles":[]}
@@ -121,6 +100,12 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][0f0b3456-006d-4dc1-a8f3-a425ae16282c][b4c80227-f96a-4969-b657-44c7127436b8]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][10334978-88b0-454f-acf5-7220c685c6c3][8fd919d5-9ec8-44a3-a4ea-abf2d96d4a1b]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":1},{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":1}]}
+
+[Tiling][10334978-88b0-454f-acf5-7220c685c6c3][99eac079-23ef-434a-a9b1-1ed244ceb4ff]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][4d2af2d3-2271-44d3-b53e-b148a6710b6e][]
@@ -171,6 +156,12 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][80048ef2-bb46-4efa-8f71-4a2f23aac04f][b4c80227-f96a-4969-b657-44c7127436b8]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][94543e3c-b305-43a8-af62-acc00882697a][8fd919d5-9ec8-44a3-a4ea-abf2d96d4a1b]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][94543e3c-b305-43a8-af62-acc00882697a][99eac079-23ef-434a-a9b1-1ed244ceb4ff]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][eab75c8c-27a0-4753-8be4-5539388beaea][]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -195,21 +186,15 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][fe0cbb69-ff91-4b3f-9a40-0b76da0b3900][b4c80227-f96a-4969-b657-44c7127436b8]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
-[Wayland]
-EnablePrimarySelection=false
-
 [Windows]
 AutoRaise=true
-DelayFocusInterval=0
-ElectricBorderMaximize=false
-ElectricBorderTiling=false
-ElectricBorders=1
+AutoRaiseInterval=1000
+DelayFocusInterval=100
 FocusPolicy=FocusFollowsMouse
-RollOverDesktops=true
 
 [Xwayland]
 Scale=1
 
 [org.kde.kdecoration2]
-ButtonsOnLeft=NHM
-ButtonsOnRight=
+ButtonsOnLeft=I
+ButtonsOnRight=FN

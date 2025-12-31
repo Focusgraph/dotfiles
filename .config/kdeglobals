@@ -24,97 +24,122 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=111,182,198
-BackgroundNormal=239,240,241
-DecorationFocus=57,158,180
-DecorationHover=57,158,180
-ForegroundActive=57,158,180
-ForegroundInactive=127,140,141
-ForegroundLink=42,115,131
-ForegroundNegative=218,68,83
-ForegroundNeutral=198,92,0
-ForegroundNormal=35,38,39
-ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
-
-[Colors:Complementary]
-BackgroundAlternate=59,64,69
-BackgroundNormal=49,54,59
-DecorationFocus=57,158,180
-DecorationHover=57,158,180
-ForegroundActive=57,158,180
-ForegroundInactive=175,176,179
-ForegroundLink=121,224,250
-ForegroundNegative=231,76,60
-ForegroundNeutral=253,188,75
-ForegroundNormal=239,240,241
-ForegroundPositive=46,204,113
-ForegroundVisited=61,174,230
-
-[Colors:Selection]
-BackgroundAlternate=115,186,201
-BackgroundNormal=115,186,201
-DecorationFocus=57,158,180
-DecorationHover=57,158,180
-ForegroundActive=57,158,180
-ForegroundInactive=0,0,0
-ForegroundLink=42,115,131
-ForegroundNegative=176,55,69
-ForegroundNeutral=246,116,0
-ForegroundNormal=0,0,0
-ForegroundPositive=23,104,57
-ForegroundVisited=189,195,199
-
-[Colors:Tooltip]
-BackgroundAlternate=77,77,77
-BackgroundNormal=35,38,39
-DecorationFocus=57,158,180
-DecorationHover=57,158,180
-ForegroundActive=57,158,180
-ForegroundInactive=189,195,199
-ForegroundLink=57,158,180
+BackgroundAlternate=93,116,151
+BackgroundNormal=41,44,48
+DecorationFocus=116,148,196
+DecorationHover=116,148,196
+ForegroundActive=116,148,196
+ForegroundInactive=161,169,177
+ForegroundLink=200,210,229
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
 ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
+ForegroundVisited=155,89,182
+
+[Colors:Complementary]
+BackgroundAlternate=30,87,116
+BackgroundNormal=32,35,38
+DecorationFocus=116,148,196
+DecorationHover=116,148,196
+ForegroundActive=116,148,196
+ForegroundInactive=161,169,177
+ForegroundLink=116,148,196
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Header]
+BackgroundAlternate=32,35,38
+BackgroundNormal=41,44,48
+DecorationFocus=116,148,196
+DecorationHover=116,148,196
+ForegroundActive=116,148,196
+ForegroundInactive=161,169,177
+ForegroundLink=200,210,229
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Header][Inactive]
+BackgroundAlternate=41,44,48
+BackgroundNormal=32,35,38
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=161,169,177
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Selection]
+BackgroundAlternate=87,110,144
+BackgroundNormal=87,110,144
+DecorationFocus=116,148,196
+DecorationHover=116,148,196
+ForegroundActive=116,148,196
+ForegroundInactive=255,255,255
+ForegroundLink=85,108,143
+ForegroundNegative=176,55,69
+ForegroundNeutral=198,92,0
+ForegroundNormal=255,255,255
+ForegroundPositive=23,104,57
+ForegroundVisited=155,89,182
+
+[Colors:Tooltip]
+BackgroundAlternate=32,35,38
+BackgroundNormal=41,44,48
+DecorationFocus=116,148,196
+DecorationHover=116,148,196
+ForegroundActive=116,148,196
+ForegroundInactive=161,169,177
+ForegroundLink=200,210,229
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
 
 [Colors:View]
-BackgroundAlternate=239,240,241
-BackgroundNormal=252,252,252
-DecorationFocus=57,158,180
-DecorationHover=57,158,180
-ForegroundActive=57,158,180
-ForegroundInactive=127,140,141
-ForegroundLink=42,115,131
+BackgroundAlternate=29,31,34
+BackgroundNormal=20,22,24
+DecorationFocus=116,148,196
+DecorationHover=116,148,196
+ForegroundActive=116,148,196
+ForegroundInactive=161,169,177
+ForegroundLink=116,148,196
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=35,38,39
+ForegroundNormal=252,252,252
 ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
+ForegroundVisited=155,89,182
 
 [Colors:Window]
-BackgroundAlternate=189,195,199
-BackgroundNormal=239,240,241
-DecorationFocus=57,158,180
-DecorationHover=57,158,180
-ForegroundActive=57,158,180
-ForegroundInactive=127,140,141
-ForegroundLink=42,115,131
+BackgroundAlternate=41,44,48
+BackgroundNormal=32,35,38
+DecorationFocus=116,148,196
+DecorationHover=116,148,196
+ForegroundActive=116,148,196
+ForegroundInactive=161,169,177
+ForegroundLink=116,148,196
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=35,38,39
+ForegroundNormal=252,252,252
 ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
-
-[DirSelect Dialog]
-DirSelectDialog Size=947,595
-History Items[$e]=file:$HOME/Music,file:$HOME/Music,file:$HOME/Archive/Games,file:$HOME/Archive,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/scripts,file:$HOME/Archive,file:$HOME/Archive/Music,file:$HOME/.config,file:$HOME/Archive/Music,file:$HOME/Archive/Music,file:$HOME/backtest,file:///run/media/genty/128e4d47-b54a-41f5-912d-1bce43813719/Music
-Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+ForegroundVisited=155,89,182
 
 [General]
-AccentColor=57,158,180
-ColorSchemeHash=b06aba260488fc495d1c2e8a062537753fbc403a
+AccentColor=116,148,196
+ColorSchemeHash=9f63c7711a13123582e720791ea0f8c0172977d2
+DeviceLedsAccentColored=true
+LastUsedCustomAccentColor=233,61,88
 UseSystemBell=true
 XftAntialias=true
 XftHintStyle=hintfull
@@ -127,7 +152,8 @@ smallestReadableFont=Hurmit Nerd Font,10,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Light
 toolBarFont=Hurmit Nerd Font,12,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Light
 
 [KDE]
-AnimationDurationFactor=0.7071067811865475
+AutomaticLookAndFeel=true
+LookAndFeelPackage=org.kde.breezedark.desktop
 ShowDeleteCommand=false
 SingleClick=true
 
@@ -136,8 +162,6 @@ Allow Expansion=false
 Automatically select filename extension=true
 Breadcrumb Navigation=true
 Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
@@ -161,10 +185,10 @@ EnableRemoteFolderThumbnail=false
 MaximumRemoteSize=0
 
 [WM]
-activeBackground=111,182,198
+activeBackground=39,44,49
 activeBlend=252,252,252
 activeFont=Hurmit Nerd Font,12,-1,5,700,0,0,0,0,0,0,0,0,0,0,1,Bold
-activeForeground=0,0,0
-inactiveBackground=239,240,241
-inactiveBlend=75,71,67
-inactiveForeground=189,195,199
+activeForeground=252,252,252
+inactiveBackground=32,36,40
+inactiveBlend=161,169,177
+inactiveForeground=161,169,177
